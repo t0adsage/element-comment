@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.js"></script>
+    <!-- Для того что бы все скрипты работали -->
+    <link rel="stylesheet" href="tscomment/tscomment.css" /> <!-- Стили комментариев -->
+    <title>TS Comment</title>
+</head>
+
+<body style="background: #fff none repeat scroll 0 0;
+    border-radius: 10px;
+    margin: 0 0 15px;
+    overflow: scroll;
+    padding: 20px;
+    -webkit-box-shadow: 0 0 10px #e6e6e6;
+    box-shadow: 0 0 10px #e6e6e6;">
+    <div id="comments">
+        <br>
+        <h1> Комментарии: </h1>
+
+        <!-- Комментарий -->
+
+        <div class="comment">
+            <a href="https://t.me/toadsage"><img src="tscomment/ava1.jpg" class="comment-avatar" alt="img"></a>
+            <a href="https://t.me/toadsage" class="main-lnk"><span class="comment-name"> Тайный Покупатель </span></a>
+            <span class="comment_date">
+
+            </span>
+            <div class="text3">
+
+                <div class="txtCom"> Заказал товар через <a class="under-href" href="https://t.me/toadsage">телеграм</a>
+                    и все супер!
+                    <br>
+                    Пришло быстро, всем рекомендую к покупке, а так же попробуйте нажать на банку!
+                    <br>
+                    <a href="tscomment/live1.png" class="popup-img"> <img src="tscomment/live1.png" alt=""
+                            style="width: 200px;"></a>
+                    <div class="block-like" style="text-align: right;">
+                        <span class="like">
+                            <img src="tscomment/like.png" alt="" class="img-like ">
+                            <span class="like-count">10</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Комментарий -->
+
+        <!-- Ответ на комментарий -->
+        <div class="comment" style="margin-left: 50px;">
+            <a href="https://t.me/toadsage"><img src="tscomment/ava2.jpg" class="comment-avatar" alt="img"></a>
+            <a href="https://t.me/toadsage" class="main-lnk"><span class="comment-name" style="color: #f92222;"> Тод
+                    Сейдж
+                </span></a>
+            <span class="comment_date">
+            </span>
+
+            <div class="text3">
+                Спасибо за приятный комментарий, стараемся работать для вас!
+                <br>
+                Качество в нашем приоритете!
+                <div class="block-like" style="text-align: right;">
+                    <span class="like">
+                        <img src="tscomment/like.png" alt="" class="img-like ">
+                        <span class="like-count">25</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ответ на комментарий -->
+
+        <div class="comment">
+            <a href="https://t.me/toadsage"><img src="tscomment/ava3.jpg" class="comment-avatar" alt="img"></a>
+            <a href="https://t.me/toadsage" class="main-lnk"><span class="comment-name"> Хейтер </span></a>
+            <span class="comment_date"></span>
+            <div class="text3">
+
+                <div class="txtCom"> Это все развод, не бывает такого хорошего качества!
+                    <br>
+                    <div class="block-like" style="text-align: right;">
+                        <span class="like">
+                            <img src="tscomment/like.png" alt="" class="img-like ">
+                            <span class="like-count">0</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Скрипты для открытия фото в комментарии -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="tscomment/tszoom.js"></script>
+    <!-- Скрипты для открытия фото в комментарии -->
+
+    <script src="tscomment/tsdate.js"></script>
+    <!-- Дата для коментария идут в порядке возрастания, для установки в нужное место вставьте <span class="comment_date"></span>  -->
+
+    <script src="tscomment/tslike.js"></script> <!-- Скрипт для лайков -->
+
+</body>
+
+</html>

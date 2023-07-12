@@ -1,0 +1,1 @@
+document.querySelectorAll(".like").forEach((function (t) { const n = t.querySelector(".img-like"); let e = t.querySelector(".like-count"), o = +e.textContent, i = !1; n.addEventListener("click", (function (t) { !1 === i ? (e.textContent = o + 1, i = !0) : (e.textContent = o, i = !1) })) }))
